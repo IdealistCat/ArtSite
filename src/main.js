@@ -1,7 +1,13 @@
 import { ARTLIST } from "./global_artlist.js";
 
-var p = document.createElement("img")
-p.src = ARTLIST[0].src + ARTLIST[0].ext
-p.width = ARTLIST[0].dimensions[0]
-p.height = ARTLIST[0].dimensions[1]
-document.body.append(p)
+
+for (let index = 0; index < ARTLIST.length; index++) {
+    const artwork = ARTLIST[index];
+
+    var img = document.createElement("img")
+    img.src = "./art/"+artwork.src+artwork.ext
+    if (artwork.dimensions[0]>0) img.width=artwork.dimensions[0];
+    if (artwork.dimensions[1]>0) img.height=artwork.dimensions[1];
+    document.getElementById('art').append(img)
+    
+}

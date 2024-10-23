@@ -2,8 +2,8 @@ const png = ".png"
 
 export const ARTLIST = [
     {
-        src: "test/test",
+        src: "test/test1",
         ext: png,
-        dimensions: [100, 100]
+        dimensions: [100]
     }
 ]
