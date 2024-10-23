@@ -2,6 +2,7 @@
 ## Added
 - Added 26 art images
 - Added function in `global_artwork.js` for adding artwork
+- Added jpeg constant var in `global_artwork.js` file
 ## Removed
 - Removed 2 test imgs
 # v1h - 1 Hour Version - 10/23/2024
