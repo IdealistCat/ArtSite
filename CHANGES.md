@@ -2,3 +2,4 @@
 ## Added
 - Added Art div for artwork
 - Added testing art in art/test folder
+- Added artlist js file
