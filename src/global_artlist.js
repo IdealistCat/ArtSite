@@ -1,14 +1,13 @@
 const png = ".png"
 
-export const ARTLIST = [
-    {
-        src: "test/test1",
-        ext: png,
-        dimensions: [400]
-    },
-    {
-        src: "test/test1",
-        ext: png,
-        dimensions: [400]
-    }
-]
+export const ARTLIST = []
+
+function addArtwork(img = "test/test1", dimensions = [400,400], ext = png) {
+    ARTLIST.push({
+        src: img,
+        ext: ext,
+        dimensions:dimensions
+    })
+}
+
+addArtwork('ADHD!');
